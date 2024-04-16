@@ -3,15 +3,15 @@
 import inquirer from "inquirer";
 
 const answers: {
-    Sentence: string;
-} = await inquirer.prompt([
+    sentence: string;
+} = await inquirer.prompt(
     {
-        name: "Sentence",
+        name: "sentence",
         type: "input",
         message: "Enter your sentence: "
     }
-])
-const words = answers.Sentence.trim().split(" ");
+)
+const words = answers.sentence.trim().split(" ");
 
 //Print the array of words to the console
 console.log(words);

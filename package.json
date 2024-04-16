@@ -1,19 +1,16 @@
 {
   "name": "saira-word-counter",
-  "version": "1.0.0",
+  "version": "1.2.3",
   "description": "",
   "main": "index.js",
-  "type": "module",
-  "publishConfig": {
-    "access": "public"
-  },
+  "type": "module", 
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Saira Asif",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.19"
   },
